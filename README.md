@@ -76,4 +76,5 @@ The simulation scenario will serve as the foundational framework upon which we w
 | MAC Protocol  | TDMA |
 | Radio Propagation Model  | Unit Disk Radio |
 
-
+The simulation files are located in the ***\OMNET Files*** folder.
+The evaluationa dn result files located in the ***\Python Files*** folder. Under the *\Python Files* folder, two subfolders are present for each simulation scenario.
