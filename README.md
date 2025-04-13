@@ -3,6 +3,10 @@
 Since the beginning of civil aviation, communications have always relied on direct-link communication. As airline traffic is expected to continue to grow continuously in the coming years, this would lead to saturation of the capacity of current communication systems. Moreover, connection establishment and maintenance in remote areas like oceanic and polar region is considerably challenging due to lack of infrastructure. This research particularly focuses on the oceanic airspace due to its limited capability and discusses its importance in current air traffic growth. Over the recent years, Aeronautical Ad-Hoc Networks (AANETs) have been emerged as an alternative communication infrastructure for aviation which can provide real-time connectivity specially in oceanic and remote areas for aircraft and ground-based systems. 
 This research conducts an in-depth analysis of end-to-end performance of Shortest Path Routing in the context of Aeronautical Ad-Hoc Networks.
 
+# Project Workflow
+
+![Figure 1](Images/Analytical_Model.png)
+
 # Project Description
 DSPR stands for Dijkstra Shortest Path Routing
 This project calculates the shortest path between MANET nodes based on the position using Dijkstra Shortest path Routing Algorithm. This project consists of two main modules:
