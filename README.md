@@ -32,7 +32,7 @@ findAllShortestPaths(std::vector<std::vector<int>>& adjacencyMatrix, std::vector
 ```
 
 
-For shortest path, it will use priority queue based Dijkstra approach and then store the results in a routing table which will be used later ny the DSPR module to route packet to the next hop node.
+For shortest path, it will use priority queue based Dijkstra approach and then store the results in a routing table which will be used later by the DSPR module to route packet to the next hop node.
 
 ```
 using Pair = std::pair<int, int>; // Pair(distance, vertex)
@@ -61,3 +61,24 @@ using Pair = std::pair<int, int>; // Pair(distance, vertex)
 ```
 
 As the nodes are mobile, the NodeManager module will keep updating at specific timestamps in order to keep the netwowk updated according the current node position and update the routing table with the updated paths.
+
+
+The study commences with a comprehensive review of the evolving landscape of aeronauticalcommunication systems, including their challenges and limitations. The research particularly aligns into the shortcomings of the current infrastructure and explores potential solutions through the introduction of the emerging communication standard known as LDACS. A substantial portion of the analysis focuses on Mobile Ad-Hoc Network (MANET) routing protocols and their applicability to the development of LDACS. Performance evaluations of various routing protocols are conducted in various network scenarios, drawing from global research efforts to identify existing gaps in network performance evaluation.
+
+The findings of this analysis sheds light on the maximum performance capability of a network model that can be achieved and also serve the crucial role in analyzing the exisitng protocol performance under all MANET environment. The insights gained will contribute to the ongoing development and enhancement of routing protocols for not only aeronautical ad hoc networks, but also all protocols developed under the MANET scenario, thereby strengthening the backbone of modern aviation communication systems.
+
+## Simulation Setup
+
+The simulation scenario will serve as the foundational framework upon which we will conduct our analysis and evaluation. Two simulation scenario to assess the performance of our routing protocols. In the first scenario, we will analyze the adaptability of the routing protocols under different traffic conditions while in the second scenario, we will analyze the reliability of the routing protocols under various network connectivity. Each simulation will process in an iterative manner of 10 runs and the measurement data have been captured in their respective CSV files for post analysis on each run. The KPI's which will has been used are listed below:
+
+| Parameter  | Value |
+| ------------- | ------------- |
+| Protocols used  | DSPR, GPSR |
+| Aircraft No.  | 371 |
+| Simulation Time  | 1800s |
+| Mobility Model  | BonnMotion Mobility |
+| MAC Protocol  | TDMA |
+| Radio Propagation Model  | Unit Disk Radio |
+
+The simulation files are located in the ***\OMNET Files*** folder.
+The evaluation and result files located in the ***\Python Files*** folder. Under the *\Python Files* folder, two subfolders are present for each simulation scenario.
